@@ -14,6 +14,7 @@ void _sort(int nums[], int n)
             }
         }
     }
+    cout << "Minimum number: " << nums[0] << endl;
 }
 
 void dubles(int nums[], int n)
@@ -51,11 +52,7 @@ int main()
 
     _sort(nums, n);
 
-    cout << "Minimum number: " << nums[0] << endl;
-
     dubles(nums, n);
-
-    cout << endl;
 
     return 0;
 }
